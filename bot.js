@@ -126,8 +126,7 @@ var oyun = [
 client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
-
-client.login(process.env.BOT_TOKEN);
+client.login(ayarlar.token);
 
 client.on('guildMemberAdd', member => {
   let guild = member.guild;
@@ -157,5 +156,5 @@ client.on('guildMemberRemove', member => {
   .setTimestamp()
   channel.sendEmbed(embed);
 });
-client.login(process.env.BOT_TOKEN);
+client.login(ayarlar.token);
 
