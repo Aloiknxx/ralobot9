@@ -157,5 +157,5 @@ client.on('guildMemberRemove', member => {
   .setTimestamp()
   channel.sendEmbed(embed);
 });
-client.login(ayarlar.token);
+client.login(process.env.BOT_TOKEN);
 
