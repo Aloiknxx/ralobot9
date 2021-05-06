@@ -12,7 +12,7 @@
     "discord.js": "^11.4.2",
     "discord.js-commando": "^0.10.0",
     "fortnitetracker-7days-stats": "^3.1.1",
-    "json": "^9.0.6",
+    "json": "^10.0.0",
     "math-expression-evaluator": "^1.2.17",
     "moment": "^2.22.2",
     "moment-duration-format": "^2.2.2",
